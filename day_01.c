@@ -4,7 +4,7 @@
 int day1a() {
     char * line = NULL;
     size_t len = 0;
-    FILE * fp = fopen("../inputs/day_1.txt", "r");
+    FILE * fp = fopen("../inputs/day_01.txt", "r");
 
     long lastLine = 0;
     int counter = -1;
@@ -22,7 +22,7 @@ int day1a() {
 int day1b() {
     char * line = NULL;
     size_t len = 0;
-    FILE * fp = fopen("../inputs/day_1.txt", "r");
+    FILE * fp = fopen("../inputs/day_01.txt", "r");
 
     int counter = 0;
 

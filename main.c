@@ -1,4 +1,4 @@
-#include "day_1.c"
+#include "day_01.c"
 
 int main(void) {
     printf("Advent of code 2021 solutions:\n\n");
