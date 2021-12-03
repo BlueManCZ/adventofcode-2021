@@ -58,6 +58,8 @@ long day3b() {
             }
         }
 
+        fclose(fp);
+
         gMask[index] = (gCount >= 0) ? '1' : '0';
         sMask[index] = (sCount >= 0) ? '0' : '1';
     }
