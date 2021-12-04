@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int day1a() {
+long day1a() {
     char * line = NULL;
     size_t len = 0;
     FILE * fp = fopen("../inputs/day_01.txt", "r");
@@ -19,7 +19,7 @@ int day1a() {
     return counter;
 }
 
-int day1b() {
+long day1b() {
     char * line = NULL;
     size_t len = 0;
     FILE * fp = fopen("../inputs/day_01.txt", "r");
