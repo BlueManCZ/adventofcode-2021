@@ -1,4 +1,6 @@
 #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef struct {
     long values[5][5];
@@ -86,8 +88,6 @@ long day4a() {
     memset(boardsMask, -1, sizeof boardsMask);
 
     for (int i = 0; numbers[i] > -1; i++) {
-        printf("Num: %li\n", numbers[i]);
-
         for (int b = 0; b < 100; b++) {
             Board cBoard = boards[b];
             for (int x = 0; x < 5; x++) {
@@ -126,8 +126,6 @@ long day4b() {
     int boardStatus[100] = {0};
 
     for (int i = 0; numbers[i] > -1; i++) {
-        printf("Num: %li\n", numbers[i]);
-
         for (int b = 0; b < 100; b++) {
             Board cBoard = boards[b];
             for (int x = 0; x < 5; x++) {
