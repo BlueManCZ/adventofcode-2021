@@ -41,7 +41,7 @@ long day5a() {
 
     fclose(fp);
     int count = 0;
-    for (int i = 0; i < (sizeof field) / (sizeof(int)); i++) {
+    for (int i = 0; i < sizeof field / sizeof(int); i++) {
         if ((*field)[i] > 1) count++;
     }
 
@@ -83,7 +83,7 @@ long day5b() {
 
     fclose(fp);
     int count = 0;
-    for (int i = 0; i < (sizeof field) / (sizeof(int)); i++) {
+    for (int i = 0; i < sizeof field / sizeof(int); i++) {
         if ((*field)[i] > 1) count++;
     }
 
