@@ -1,3 +1,8 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/param.h>
+
 #include "solutions/day_01.h"
 #include "solutions/day_02.h"
 #include "solutions/day_03.h"

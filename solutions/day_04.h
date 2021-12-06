@@ -1,7 +1,3 @@
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-
 typedef struct {
     long values[5][5];
 } Board;

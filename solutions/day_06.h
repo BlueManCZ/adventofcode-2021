@@ -6,6 +6,7 @@ long simulateFish(int days, int initialCount) {
     long numbers[initialCount];
     getline(&line, &len, fp);
     split(line, numbers, ',');
+    fclose(fp);
 
     long fish[9] = {0};
     long count = initialCount;

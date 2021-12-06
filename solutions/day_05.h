@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/param.h>
-
 void parseLine(const char * input, long output[]) {
     char buffer[10] = {'\0'};
     int index = 0;

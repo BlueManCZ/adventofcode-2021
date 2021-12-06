@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 long day1a() {
     char * line = NULL;
     size_t len = 0;
