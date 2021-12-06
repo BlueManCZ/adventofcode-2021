@@ -1,8 +1,9 @@
-#include "solutions/day_01.c"
-#include "solutions/day_02.c"
-#include "solutions/day_03.c"
-#include "solutions/day_04.c"
-#include "solutions/day_05.c"
+#include "solutions/day_01.h"
+#include "solutions/day_02.h"
+#include "solutions/day_03.h"
+#include "solutions/day_04.h"
+#include "solutions/day_05.h"
+#include "solutions/day_06.h"
 
 int main(void) {
     printf("Advent of code 2021 solutions:\n"
