@@ -21,11 +21,15 @@ int main(void) {
            "  b) %li\n"
            "\nDay 5:\n"
            "  a) %li\n"
+           "  b) %li\n"
+           "\nDay 6:\n"
+           "  a) %li\n"
            "  b) %li\n",
            day1a(), day1b(),
            day2a(), day2b(),
            day3a(), day3b(),
            day4a(), day4b(),
-           day5a(), day5b()
+           day5a(), day5b(),
+           day6a(), day6b()
     );
 }
