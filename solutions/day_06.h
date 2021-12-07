@@ -1,12 +1,15 @@
-long simulateFish(int days, long count) {
+void splitFile(char * filename, long output[], char delimiter) {
     char * line;
     size_t len = 0;
-    FILE * fp = fopen("../inputs/day_06.txt", "r");
-
-    long numbers[count];
+    FILE * fp = fopen(filename, "r");
     getline(&line, &len, fp);
-    split(line, numbers, ',');
+    split(line, output, delimiter);
     fclose(fp);
+}
+
+long simulateFish(int days, long count) {
+    long numbers[count];
+    splitFile("../inputs/day_06.txt", numbers, ',');
 
     long fish[10] = {0};
     for (int i = 0; i < count; i++) fish[numbers[i]]++;

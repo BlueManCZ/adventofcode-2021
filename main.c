@@ -9,6 +9,7 @@
 #include "solutions/day_04.h"
 #include "solutions/day_05.h"
 #include "solutions/day_06.h"
+#include "solutions/day_07.h"
 
 int main(void) {
     printf("Advent of code 2021 solutions:\n"
@@ -29,12 +30,16 @@ int main(void) {
            "  b) %li\n"
            "\nDay 6:\n"
            "  a) %li\n"
+           "  b) %li\n"
+           "\nDay 7:\n"
+           "  a) %li\n"
            "  b) %li\n",
            day1a(), day1b(),
            day2a(), day2b(),
            day3a(), day3b(),
            day4a(), day4b(),
            day5a(), day5b(),
-           day6a(), day6b()
+           day6a(), day6b(),
+           day7a(), day7b()
     );
 }
