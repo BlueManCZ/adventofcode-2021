@@ -53,13 +53,6 @@ int containsChar(char *string, char character) {
     return 0;
 }
 
-int myPow(int base, int exp) {
-    if (exp == 0) return 1;
-    int result = base;
-    for (; exp > 1; exp--) result *= base;
-    return result;
-}
-
 long day8a() {
     char * line = NULL;
     size_t len = 0;
@@ -151,7 +144,7 @@ long day8b() {
         for (int i = 11; i < 15; i++) {
             for (int j = 0; j < 10; j++) {
                 if (!memcmp(strings[i], numbers[j], 7)) {
-                    sum += j * myPow(10, 14 - i);
+                    sum += j * pow(10, 14 - i);
                     break;
                 }
             }
