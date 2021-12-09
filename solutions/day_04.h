@@ -8,6 +8,13 @@ void split(const char * input, long output[], char delimiter) {
     int count = 0;
 
     for (int i = 0; input[i] != '\0'; i++) {
+        if (delimiter == '\0') {
+            if (input[i] == '\n') continue;
+            char c[1];
+            memcpy(c, &input[i], 1);
+            output[count++] = strtol(c, NULL, 10);
+            continue;
+        }
         if (input[i] == delimiter || input[i] == '\n') {
             if (!i) continue;
             while (input[i] == delimiter) i++;

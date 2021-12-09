@@ -70,6 +70,7 @@ long day8a() {
         }
     }
 
+    fclose(fp);
     return counter;
 }
 
@@ -151,5 +152,6 @@ long day8b() {
         }
     }
 
+    fclose(fp);
     return sum;
 }

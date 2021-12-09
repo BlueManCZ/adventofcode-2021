@@ -6,8 +6,9 @@
 #include "day_06.h"
 #include "day_07.h"
 #include "day_08.h"
+#include "day_09.h"
 
-#define S_COUNT (8 * 2)
+#define S_COUNT (9 * 2)
 
 long (*solutions[S_COUNT])() = {
         day1a, day1b,
@@ -17,5 +18,6 @@ long (*solutions[S_COUNT])() = {
         day5a, day5b,
         day6a, day6b,
         day7a, day7b,
-        day8a, day8b
+        day8a, day8b,
+        day9a, day9b
 };
