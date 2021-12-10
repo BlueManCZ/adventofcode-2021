@@ -1,3 +1,5 @@
+// --- Day 6: Lanternfish ---
+
 void splitFile(char * filename, long output[], char delimiter) {
     char * line;
     size_t len = 0;

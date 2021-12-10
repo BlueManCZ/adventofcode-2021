@@ -1,3 +1,5 @@
+// --- Day 1: Sonar Sweep ---
+
 long day1a() {
     char * line = NULL;
     size_t len = 0;

@@ -1,3 +1,5 @@
+// --- Day 9: Smoke Basin ---
+
 #define H_W 100
 #define H_H 100
 

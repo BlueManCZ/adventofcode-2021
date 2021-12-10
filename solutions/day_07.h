@@ -1,3 +1,5 @@
+// --- Day 7: The Treachery of Whales ---
+
 #define COUNT 1000
 #define ROOF 2000
 

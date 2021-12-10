@@ -1,3 +1,5 @@
+// --- Day 4: Giant Squid ---
+
 typedef struct {
     long values[5][5];
 } Board;

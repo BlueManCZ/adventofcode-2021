@@ -1,3 +1,5 @@
+// --- Day 10: Syntax Scoring ---
+
 #define L_MAX 110
 #define C_MAX 90
 

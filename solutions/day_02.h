@@ -1,3 +1,5 @@
+// --- Day 2: Dive! ---
+
 long day2a() {
     char * line = NULL;
     size_t len = 0;

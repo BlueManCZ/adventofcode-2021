@@ -1,3 +1,5 @@
+// --- Day 3: Binary Diagnostic ---
+
 #define LEN 12
 
 long day3a() {

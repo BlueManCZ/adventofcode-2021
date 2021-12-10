@@ -1,3 +1,5 @@
+// --- Day 8: Seven Segment Search ---
+
 void splitString(const char *input, char *output[], char delimiter) {
     char buffer[10] = {'\0'};
     int index = 0;
